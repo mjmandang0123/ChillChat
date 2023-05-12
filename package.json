@@ -1,0 +1,28 @@
+{
+  "name": "next-openai-chatgpt",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.18",
+    "@chakra-ui/react": "^2.5.5",
+    "firebase": "^9.20.0",
+    "next": "latest",
+    "react": "latest",
+    "react-cookie": "^4.1.1",
+    "react-dom": "latest",
+    "react-firebase-hooks": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17",
+    "@types/react": "latest",
+    "eslint": "^8.11.0",
+    "eslint-config-next": "^12.1.0",
+    "typescript": "^4.7.3"
+  }
+}
