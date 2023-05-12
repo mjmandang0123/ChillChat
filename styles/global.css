@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background: #a7d6f1;
+  background: #376fa0;
 }
 
 html,
@@ -30,7 +30,7 @@ body {
 body {
   font-size: 16px;
   line-height: 24px;
-  color: #353740;
+  color: #ffffff;
   font-family: "ColfaxAI", Helvetica, sans-serif;
 }
 h1 {
@@ -47,7 +47,7 @@ section + section {
 }
 .dialogue {
   border-radius: 4px;
-  border: 1px solid rgb(9, 138, 243);
+  border: 1px solid rgb(0, 0, 0);
   padding: 25px;
   max-width: 500px;
   width: 100%;
@@ -60,13 +60,13 @@ section + section {
 .prompt {
   clear: both;
   border-radius: 4px;
-  border: 1px solid rgb(9, 138, 243);
+  border: 1px solid rgb(0, 0, 0);
   padding: 15px 25px;
   max-width: 85%;
   margin: 10px 0 15px;
 }
 .prompt.right .msg {
-  color: gray;
+  color: rgb(255, 255, 255);
 }
 .name {
   font-weight: bold;
@@ -78,14 +78,14 @@ section + section {
   padding-top: 25px;
 }
 ::placeholder {
-  color: gray;
+  color: rgb(255, 255, 255);
   opacity: 1;
 }
 input[type="text"] {
   padding: 12px 16px;
-  border: 1px solid #10a37f;
+  border: 1px solid #000000;
   border-radius: 4px;
-  outline-color: #10a37f;
+  outline-color: #000000;
   width: 85%;
   font-size: 16px;
 }
